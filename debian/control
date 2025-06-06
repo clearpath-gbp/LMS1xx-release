@@ -1,0 +1,12 @@
+Source: ros-jazzy-lms1xx
+Section: misc
+Priority: optional
+Maintainer: Tony Baltovski <tbaltovski@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-geometry-msgs, ros-jazzy-laser-geometry, ros-jazzy-rclcpp, ros-jazzy-sensor-msgs, ros-jazzy-tf2, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Homepage: http://ros.org/wiki/LMS1xx
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-lms1xx
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-geometry-msgs, ros-jazzy-laser-geometry, ros-jazzy-rclcpp, ros-jazzy-sensor-msgs, ros-jazzy-tf2, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Description: The lms1xx package contains a basic ROS 2 driver for the SICK LMS1xx line of LIDARs.
